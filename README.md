@@ -14,7 +14,7 @@ Now you can play with the models.
 ```bash
 $ irb
 irb> load "config/application.rb"
-irb> doctor = Doctor.new("Gregory", "House")
+irb> doctor = Doctor.new(first_name: "Gregory", last_name: "House")
 irb> doctor.save
 ```
 
